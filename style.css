@@ -1,0 +1,421 @@
+body {
+    background: url("images/bodyBack.png") repeat-x scroll left top #E3E3E3;
+    color: #333333;
+    font-family: 'Pontano Sans',sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+a {
+    color: #E10B5F;
+    text-decoration: none;
+}
+a:hover {
+    color: #333333;
+}
+img {
+    border: medium none;
+}
+a {
+}
+h1, h2, h3, h4, h5 {
+    letter-spacing: 1px;
+}
+h1 {
+    color: #333333;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: left;
+}
+h4 {
+    font-size: 11px;
+    margin-bottom: 8px;
+}
+input {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    font-family: tahoma,helvetica;
+    font-size: 11px;
+    height: 30px;
+    padding: 3px;
+}
+label {
+    display: block;
+}
+table {
+    font-size: 11px;
+}
+form {
+    margin: 0;
+}
+#menuTop {
+    font-weight: bold;
+    height: 30px;
+    margin-right: 10px;
+    text-align: right;
+}
+#menuTop a {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("images/menuTopBack.png") repeat scroll 0 0 transparent;
+    border-color: -moz-use-text-color #CCCCCC #CCCCCC;
+    border-radius: 0 0 6px 6px;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    display: block;
+    float: right;
+    margin-left: 4px;
+    padding: 5px;
+    text-align: center;
+    width: auto;
+}
+#menuTop a#bip {
+    background: url("images/btnBip.gif") no-repeat scroll left bottom #FFFFFF;
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    width: 30px;
+}
+
+*html #menuTop a#bip {
+    width:40px;
+}
+
+#bannerHolder {
+    background: url("images/bannerBack.gif") repeat-x scroll left top transparent;
+    height: 200px;
+}
+#banner {
+    background: url("images/banner.jpg") no-repeat scroll left top transparent;
+    cursor: pointer;
+    height: 200px;
+    position: relative;
+    width: 999px;
+}
+#menuMain {
+    height: 38px;
+    text-align: center;
+    width: 775px;
+    clear:left;
+    
+}
+#menuMain a {
+    border-right: 1px solid #CCCCCC;
+    color: #E10B5F;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    height: 26px;
+    letter-spacing: 1px;
+    padding-top: 12px;
+    width: 145px;
+}
+#menuMain a:hover, .menu a:hover {
+    color: #444444;
+    cursor: pointer;
+}
+.menu {
+    background: none repeat scroll 0 0 #ebebeb;
+    color: #000000;
+    height: auto;
+    left: 620px;
+    line-height: 22px;
+    max-width: 200px;
+    overflow: auto;
+    position: absolute;
+    text-align: left;
+    top: 280px;
+    width: 210px;
+    z-index: 999;
+}
+.pmenu {
+    border-bottom: 1px solid #ccc;
+    color: #E10B5F;
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    word-wrap: break-word;
+    font-size:13px;
+    letter-spacing:1px;
+}
+
+#holder {
+    background: url("images/holderBack.png") no-repeat scroll left top transparent;
+    height: 400px;
+    position: relative;
+    width: 999px;
+}
+#leftColumn {
+    float: left;
+    overflow: hidden;
+    padding-top: 12px;
+    text-align: left;
+    width: 230px;
+}
+#leftColumn h1 {
+    position: relative;
+}
+#leftColumn h1 a.rss {
+    border-bottom: medium none;
+    left: 128px;
+    position: absolute;
+    top: 4px;
+}
+#leftColumn h1 a.rss:hover {
+    background: none repeat scroll 0 0 transparent;
+}
+#leftColumn p a {
+    color: #555555;
+    display: block;
+    margin: 0 5px 0 60px;
+    width: auto;
+}
+#leftColumn a:hover {
+    text-decoration: underline;
+}
+#leftColumn p {
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 16px;
+    padding-top: 0;
+}
+#leftColumn h4 {
+    margin-bottom: 0;
+    margin-left: 60px;
+}
+#leftColumn img {
+    float: left;
+}
+#contentTop {
+    background: url("images/contentTopBack.png") no-repeat scroll left bottom transparent;
+    float: left;
+    overflow: hidden;
+    text-align: left;
+    width: 550px;
+}
+#contentTop h1 {
+    margin-bottom: 12px;
+}
+#contentTop span {
+    color: #0072BC;
+    letter-spacing: 1px;
+}
+#content {
+    background: url("images/contentBack.png") repeat-y scroll left top transparent;
+    float: left;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 0 25px 25px 15px;
+    text-align: justify;
+    width: 500px;
+	line-height: 18px;
+}
+
+*html #content {
+  width:540px;
+  top:66px;
+}
+
+#content ul li {
+    font-size: 11px;
+}
+#content h1 {
+    font-size: 18px;
+}
+#content p {
+    font-size: 14px;
+    line-height: 18px;
+}
+.slide {
+    background: none repeat scroll 0 0 #CCCCCC;
+    border: 4px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    height: 250px;
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+    width: 490px;
+}
+.slideHeader {
+    background: url("images/slideHeaderBack.png") repeat-x scroll left bottom transparent;
+    color: #CCCCCC;
+    font-size: 20px;
+    font-weight: normal;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    top: 200px;
+    width: 490px;
+}
+.slideHeader a {
+    color: #000000;
+}
+.newsIntro {
+    border-bottom: 1px dashed #CECECE;
+    padding-bottom: 5px;
+}
+.newsIntro img {
+    border: 3px solid #CCCCCC;
+    border-radius: 6px 6px 6px 6px;
+    float: left;
+    margin-right: 15px;
+    width: 200px;
+}
+.newsIntro p {
+    color: #555555;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 7px;
+}
+a.readMore {
+    clear: left;
+    display: block;
+    font-weight: bold;
+    margin: 0;
+    text-align: right;
+}
+#contentBottom {
+    background: url("images/contentBottomBack.png") no-repeat scroll left bottom transparent;
+    border: 0 solid red;
+    color: #CCCCCC;
+    height: 40px;
+    letter-spacing: 1px;
+    margin: 20px -25px -25px -15px;
+    text-align: center;
+    width: 540px;
+}
+#rightColumn {
+    float: right;
+    overflow: hidden;
+    width: 220px;
+}
+#rightColumn img {
+}
+#rightColumn h4, #rightColumn p {
+    margin: 0;
+    padding: 10px;
+}
+#zadajPytanie {
+    background: url("images/btnBurmistrz.gif") no-repeat scroll left top transparent;
+    display: block;
+    height: 134px;
+    margin-bottom: 10px;
+    width: 213px;
+}
+
+*html .boxPanelTop, *html .boxPanelTop1 {
+  width:213px;
+  height:40px;
+} 
+
+
+.boxPanelTop1 {
+    background: url("images/boxPanelTop1.png") no-repeat scroll left bottom transparent;
+    color: #444444;
+    font-weight: bold;
+    height: 26px;
+    letter-spacing: 1px;
+    padding: 14px 4px 0 44px;
+    text-align: left;
+    width: 165px;
+}
+.boxPanelTop {
+    background: url("images/boxPanelTop.png") no-repeat scroll left bottom transparent;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 26px;
+    letter-spacing: 1px;
+    padding: 14px 4px 0 44px;
+    text-align: left;
+    width: 165px;
+}
+.boxMiddle {
+    background: url("images/boxInfoMiddle.png") repeat-y scroll left top transparent;
+    width: 213px;
+}
+.boxMiddle img {
+    border: 3px solid #EBEBEB;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 8px;
+}
+.boxBottom {
+    background: url("images/boxInfoBottom.png") repeat-y scroll left top transparent;
+    height: 20px;
+    width: 213px;
+}
+.boxSport {
+    background: url("images/icoSport.png") no-repeat scroll left top transparent;
+}
+.boxMuzyka {
+    background: url("images/icoMuzyka.png") no-repeat scroll left top transparent;
+}
+.boxDzieci {
+    background: url("images/icoDzieci.png") no-repeat scroll left top transparent;
+}
+.boxFlaga {
+    background: url("images/icoFlaga.png") no-repeat scroll left top transparent;
+}
+.boxSztuka {
+    background: url("images/icoSztuka.png") no-repeat scroll left top transparent;
+}
+.button {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #666666;
+    font-weight: bold;
+    width: 70px;
+} 
+.alert {
+    padding: 15px;
+}
+body.blank {
+    background: none repeat scroll 0 0 transparent;
+    margin: 20px;
+}
+table.formularz {
+    background: none repeat scroll 0 0 #F8EFD1;
+    border: 1px solid #CCCCCC;
+    border-radius: 6px 6px 6px 6px;
+}
+table.formularz td {
+    padding: 10px;
+}
+ul.archiwum {
+    float: left;
+    list-style: none outside none;
+    margin: 0 10px 0 0;
+    width: 200px;
+}
+ul.archiwum h2 {
+}
+ul.archiwum li a {
+    border-bottom: 1px solid #CCCCCC;
+    border-collapse: collapse;
+    display: block;
+    font-weight: bold;
+    padding: 10px;
+}
+ul.archiwum li a:hover {
+    background: none repeat scroll 0 0 #F8EFD1;
+}
+#footer {
+    background: url("images/footerBack.png") repeat-x scroll left top #FFFFFF;
+    border: 0 solid red;
+    clear: both;
+    width: 100%;
+}
+#footerImg {
+    background: url("images/footerImg.png") no-repeat scroll center top #FFFFFF;
+    border: 0 solid red;
+    clear: both;
+    height: 300px;
+    padding-top: 60px;
+    width: 999px;
+}
+#banner img {
+    left: 900px;
+    position: absolute;
+    top: 130px;
+}
