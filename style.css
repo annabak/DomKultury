@@ -102,8 +102,8 @@ form {
     
 }
 #menuMain a {
-    border-right: 1px solid #CCCCCC;
-    color: #E10B5F;
+    border-right: 0px solid #E10B5F;
+    color: #000000;
     display: block;
     float: left;
     font-size: 14px;
@@ -114,7 +114,7 @@ form {
     width: 145px;
 }
 #menuMain a:hover, .menu a:hover {
-    color: #444444;
+    color: #E10B5F;
     cursor: pointer;
 }
 .menu {
@@ -143,7 +143,7 @@ form {
 }
 
 #holder {
-    //background: url("images/holderBack.png") no-repeat scroll left top transparent;
+    background: no-repeat scroll left top transparent;
     height: 400px;
     position: relative;
     width: 999px;
@@ -206,13 +206,13 @@ form {
 }
 #content {
     background: //url("images/contentBack.png") repeat-y scroll left top transparent;
-    float: left;
-    font-size: 14px;
-    line-height: 20px;
-    overflow: hidden;
-    padding: 0 25px 25px 15px;
-    text-align: justify;
-    width: 500px;
+	float: left;
+	font-size: 14px;
+	line-height: 20px;
+	overflow: hidden;
+	padding: 0 25px 25px 15px;
+	text-align: left;
+	width: 500px;
 	line-height: 18px;
 }
 
@@ -242,24 +242,24 @@ form {
 	width: 490px;
 }
 .slideHeader {
-    background: //url("images/slideHeaderBack.png") repeat-x scroll left bottom transparent;
-	color: #ffffff;
+	background: url("images/slideHeaderBack.png") repeat-x scroll left bottom transparent;
+	color: #cccccc;
 	font-size: 20px;
 	font-weight: normal;
 	height: 50px;
 	left: 0;
 	position: absolute;
-	top: 200px;
+	top: 219px;
 	width: 490px;
 }
 .slideHeader a {
     color: #000000;
 }
 .newsIntro {
-	padding-bottom: 5px;
+	padding-bottom: 3px;
 	border-bottom-width: 0px;
-	border-bottom-style: dashed;
-	border-bottom-color: #CECECE;
+	border-bottom-style: none;
+	left: 210px;
 }
 .newsIntro img {
 	border: 0px solid #CCCCCC;
@@ -412,7 +412,7 @@ ul.archiwum li a:hover {
     width: 100%;
 }
 #footerImg {
-    background: url("images/footerImg.png") no-repeat scroll center top #FFFFFF;
+   background: url("images/footerImg.png") no-repeat scroll center top #FFFFFF;
     border: 0 solid red;
     clear: both;
     height: 300px;
