@@ -72,7 +72,7 @@ form {
     width: auto;
 }
 #menuTop a#bip {
-    background: url("images/btnBip.gif") no-repeat scroll left bottom #000000;
+    background: url("images/btnBip.png") no-repeat scroll left bottom #000000;
     border-bottom: 1px solid red;
     border-left: 1px solid red;
     border-right: 1px solid red;
@@ -159,10 +159,10 @@ form {
     position: relative;
 }
 #leftColumn h1 a.rss {
-    border-bottom: medium none;
-    left: 128px;
-    position: absolute;
-    top: 4px;
+	border-bottom: medium none;
+	left: 89px;
+	position: absolute;
+	top: 0px;
 }
 #leftColumn h1 a.rss:hover {
     background: none repeat scroll 0 0 transparent;
@@ -249,7 +249,7 @@ form {
 	height: 50px;
 	left: 0;
 	position: absolute;
-	top: 219px;
+	top: 201px;
 	width: 490px;
 }
 .slideHeader a {
@@ -328,14 +328,17 @@ a.readMore {
     width: 165px;
 }
 .boxPanelTop {
-    background: url("images/boxPanelTop.png") no-repeat scroll left bottom transparent;
-    color: #000000;
-    font-weight: bold;
-    height: 26px;
-    letter-spacing: 1px;
-    padding: 14px 4px 0 44px;
-    text-align: left;
-    width: 165px;
+	background: url("images/boxPanelTop.png") no-repeat scroll left bottom transparent;
+	color: #000000;
+	font-weight: bold;
+	height: 26px;
+	letter-spacing: 1px;
+	text-align: left;
+	width: 165px;
+	padding-top: 14px;
+	padding-right: 4px;
+	padding-bottom: 0;
+	padding-left: 5px;
 }
 .boxMiddle {
     background: url("images/boxInfoMiddle.png") repeat-y scroll left top transparent;
